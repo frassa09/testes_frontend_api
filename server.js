@@ -17,7 +17,7 @@ server.register(fastifyStatic, {
 
 server.get('/', (request, reply) => {
 
-    reply.sendFile('index.html', { root: caminho_public})
+    reply.send('ola bucetudo')
 })
 
 
